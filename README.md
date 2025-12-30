@@ -35,13 +35,18 @@ DevOps	Docker, GitHub Actions, AWS CLI
 Cloud	AWS EC2, Security Groups
 
 🚀 Guide de Déploiement Rapide
+
 1. Local Development
+   
 bash
+
 cd devops-mlops-aws-projet-Aliou-Nathan
+
 pip install -r requirements.txt
+
 streamlit run app/app.py
 
-2. Build & Test Docker
+3. Build & Test Docker
    
 bash
 
