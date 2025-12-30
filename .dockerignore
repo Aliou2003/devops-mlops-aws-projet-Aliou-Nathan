@@ -1,0 +1,7 @@
+notebooks/
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+*.keras
