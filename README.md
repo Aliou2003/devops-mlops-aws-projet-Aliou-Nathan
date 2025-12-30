@@ -13,20 +13,14 @@ Déploiement d'un modèle **MobileNetV2** pour la segmentation sémantique sur l
 
 ## 🏗️ Architecture Technique
 (voir architecture.png)
+
+
 🎨 Dataset & Modèle
 Dataset : Oxford-IIIT Pets (37 catégories, 7,349 images)
 
 Tâche : Segmentation sémantique (pixels -> classes animaux)
 
 Modèle : MobileNetV2 + U-Net decoder
-
-Métriques :
-
-IoU (Intersection over Union) : 0.78
-
-Accuracy pixel-wise : 92.3%
-
-FPS (CPU) : 8.2 | (GPU) : 34.7
 
 🛠️ Stack Technologique
 Catégorie	Technologies
