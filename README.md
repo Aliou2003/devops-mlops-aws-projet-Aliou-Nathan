@@ -23,11 +23,16 @@ Tâche : Segmentation sémantique (pixels -> classes animaux)
 Modèle : MobileNetV2 + U-Net decoder
 
 🛠️ Stack Technologique
+
 Catégorie	Technologies
+
 ML/DL	TensorFlow 2.x, MobileNetV2, OpenCV
+
 Backend	Streamlit, Python 3.9, NumPy
+
 DevOps	Docker, GitHub Actions, AWS CLI
-Cloud	AWS EC2, S3, IAM, Security Groups
+
+Cloud	AWS EC2, Security Groups
 
 🚀 Guide de Déploiement Rapide
 1. Local Development
