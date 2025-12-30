@@ -12,11 +12,42 @@ Projet étudiant démontrant un pipeline complet MLOps avec entraînement de mod
 - [x] Tester l'API déployée
 
 ## 🏗️ Architecture
-```mermaid
-graph TD
-    A[Notebook Jupyter] --> B[Modèle .pkl]
-    B --> C[API Flask/FastAPI]
-    C --> D[Docker Container]
-    D --> E[GitHub Actions CI/CD]
-    E --> F[AWS EC2 Instance]
-    F --> G[API Live]
+(voir dans architecture.png)
+
+📁 Structure du projet
+
+devops-mlops-aws-student-project/
+├── README.md
+├── requirements.txt
+├── notebooks/
+│   └── train_model.ipynb          # Entraînement du modèle
+├── model/
+│   └── model.pkl                  # Modèle sauvegardé
+├── api/
+│   ├── app.py                     Application principale
+│   ├── model_loader.py           # Chargement du modèle
+│   └── __init__.py
+├── docker/
+│   └── Dockerfile                # Configuration Docker
+├── tests/
+│   └── test_api.py              # Tests unitaires
+├── .github/
+│   └── workflows/
+│       └── ci.yml               # Pipeline CI/CD
+└── docs/
+    └── screenshots/             # Captures d'écran
+
+
+    🛠️ Technologies
+
+    ML : Scikit-learn / TensorFlow / PyTorch
+
+API : Flask / FastAPI / Streamlit
+
+Conteneurisation : Docker
+
+CI/CD : GitHub Actions
+
+Cloud : AWS EC2
+
+Monitoring : (optionnel)
