@@ -51,5 +51,5 @@ streamlit run app/app.py
    
 sudo docker build -t mlml-app .
 
-sudo docker run -d -p 8000:8000 --name ml-container mlml-app
+sudo docker run -d -p 8501:8501 --name ml-container mlml-app
 
