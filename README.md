@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 streamlit run app/app.py
 
-3. Build & Test Docker
+2. Build & Test Docker
    
 bash
 
