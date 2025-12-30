@@ -47,9 +47,8 @@ pip install -r requirements.txt
 streamlit run app/app.py
 
 2. Build & Test Docker
-   
-bash
 
+   
 sudo docker build -t mlml-app .
 
 sudo docker run -d -p 8000:8000 --name ml-container mlml-app
